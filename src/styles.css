@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #3F51B5;
+  flex-shrink: 0;
+}
+
+.demo-main {
+  margin-top: -35vh;
+  flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-content h3 {
+  margin-top: 48px;
+}
+
+.mdl-navigation a{
+    color: #3F51B5 !important;
+}
+
+.mdl-navigation a.active{
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+.mdl-list__item-sub-title{
+    font-size: 0.8em;
+    padding-left: 20px;
+    color: #c7c7c7;
+}
+
+.mdl-list__item-primary-content i{
+  color: #c7c7c7;
+  padding-right: 10px;
+}
+
+.mdl-card__media img{
+  width: 100%;
+  height: auto;
+}
+
+.profile-btn, .mdl-layout-title{
+  cursor: pointer;
+}
+
+.space{
+  padding-top: 25px;
+}
+
+.mdl-list__item--three-line{
+  height: 12vh !important;
+}
+
+.mdl-list__item-secondary-content a{
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+<h3>{{title}}</h3>
+
+<ul class="demo-list-three mdl-list">
+  <li *ngFor="let profile of profiles">
+    <span class="mdl-list__item-primary-content">
+      <h3>{{profile.title}}</h3>
+      <p>{{profile.excerpt}}</p>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <a (click)="singleProfile(profile.id)">Read More</a>
+    </span>
+  </li>
+</ul>
